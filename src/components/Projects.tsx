@@ -15,8 +15,10 @@ type Project = {
 const projects: Project[] = [
   {
     title: 'Seven Sacred Shadows',
-    description:
-      'A spiritual guidance platform featuring tarot readings, consultation services, and a mystical user interface.',
+    
+description:
+  'An ongoing web development project for a spiritual guidance platform featuring tarot readings, angel card readings, and consultation services. Focused on creating an engaging user interface and responsive experience.',
+
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     status: 'In Progress',
   },
@@ -24,10 +26,12 @@ const projects: Project[] = [
    
 {
   title: 'Developer Portfolio',
-  description:
-    'A responsive personal portfolio built with reusable components, scroll animations, and modern frontend technologies.',
+  
+description:
+  'Designed and developed a responsive frontend portfolio using React, TypeScript, and Tailwind CSS. Implemented reusable components, animated sections, mobile navigation, accessible controls, and SEO metadata. Deployed the application on Vercel with GitHub integration.',
+
   technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Motion'],
-  status: 'Completed',
+  status: 'Completed · October 2026',
   github: 'https://github.com/addy-commit/developer-portfolio',
   demo: 'https://developer-portfolio-kohl-psi.vercel.app/',
 },
