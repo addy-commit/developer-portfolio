@@ -15,46 +15,57 @@ const skills = [
   {
     name: 'HTML & CSS',
     category: 'Web Fundamentals',
+    description: 'Semantic HTML, modern CSS, layouts, and responsive styling',
     icon: Code2,
   },
   {
     name: 'JavaScript',
     category: 'Programming',
+    description: 'ES6+ syntax, DOM interactions, functions, and array methods',
     icon: FileCode2,
   },
-  {
-    name: 'React',
-    category: 'Frontend Library',
-    icon: Atom,
-  },
+  
+{
+  name: 'React',
+  category: 'Frontend Library',
+  description: 'Reusable components, JSX, props, and state management',
+  icon: Atom,
+},
+
   {
     name: 'TypeScript',
     category: 'Programming',
+    description: 'Type-safe components, interfaces, and typed application logic',
     icon: FileCode2,
   },
   {
     name: 'Tailwind CSS',
     category: 'Styling',
+    description: 'Utility-first styling, responsive design, and reusable UI patterns',
     icon: Palette,
   },
   {
     name: 'Git & GitHub',
     category: 'Version Control',
+    description: 'Version control, commits, branches, and GitHub workflows',
     icon: GitBranch,
   },
   {
     name: 'Responsive Design',
     category: 'UI Development',
+    description: 'Mobile-first layouts and adaptable interfaces across devices',
     icon: Smartphone,
   },
   {
     name: 'Component Design',
     category: 'Frontend Architecture',
+    description: 'Reusable UI components, props, and consistent design patterns',
     icon: Layout,
   },
   {
     name: 'Accessibility',
     category: 'Web Standards',
+    description: 'Semantic markup, keyboard-friendly controls, and accessible navigation',
     icon: Accessibility,
   },
 ]
@@ -114,10 +125,19 @@ function Skills() {
                   {skill.name}
                 </h3>
 
-                <p className="mt-2 text-sm text-gray-400">
-                  {skill.category}
-                </p>
-              </motion.article>
+               
+<p className="mt-2 text-sm text-gray-400">
+  {skill.category}
+</p>
+
+{'description' in skill && skill.description && (
+  <p className="mt-3 text-sm leading-relaxed text-gray-500">
+    {skill.description}
+  </p>
+)}
+
+</motion.article>
+
             )
           })}
         </div>

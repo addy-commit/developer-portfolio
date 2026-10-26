@@ -43,13 +43,15 @@ function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-gray-400">
-            I build responsive, accessible, and engaging
-            digital experiences using React, TypeScript,
-            and modern frontend technologies.
-            I enjoy transforming creative ideas into
-            beautiful and functional websites.
-          </p>
+         
+<p className="mt-8 max-w-2xl text-lg leading-relaxed text-gray-400">
+  I'm Aditi Mitra, a Frontend Developer focused on building
+  responsive, accessible, and visually engaging web applications.
+  I work with React, TypeScript, JavaScript, and Tailwind CSS
+  to create clean, reusable components and intuitive user
+  experiences.
+</p>
+
 
           {/* Action buttons */}
           <div className="mt-10 flex flex-wrap gap-4">
