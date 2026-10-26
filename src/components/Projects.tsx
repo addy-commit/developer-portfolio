@@ -20,13 +20,19 @@ const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     status: 'In Progress',
   },
-  {
-    title: 'Developer Portfolio',
-    description:
-      'A responsive personal portfolio built with reusable components, scroll animations, and modern frontend design.',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Motion'],
-    status: 'In Progress',
-  },
+
+   
+{
+  title: 'Developer Portfolio',
+  description:
+    'A responsive personal portfolio built with reusable components, scroll animations, and modern frontend technologies.',
+  technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Motion'],
+  status: 'Completed',
+  github: 'https://github.com/addy-commit/developer-portfolio',
+  demo: 'https://developer-portfolio-kohl-psi.vercel.app/',
+},
+
+  
 ]
 
 function Projects() {
