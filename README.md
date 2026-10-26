@@ -1,75 +1,96 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Aditi Mitra — Frontend Developer Portfolio
 
-Currently, two official plugins are available:
+A modern, responsive developer portfolio built with React,
+TypeScript, Tailwind CSS, and Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This website showcases my frontend development skills,
+projects, and approach to creating engaging digital
+experiences.
 
-## React Compiler
+## Live Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View My Portfolio](https://developer-portfolio-kohl-psi.vercel.app/)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- Vite
+- Motion
+- Lucide React
+- Git & GitHub
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Modern dark-themed interface
+- Responsive layouts for mobile, tablet, and desktop
+- Smooth navigation between sections
+- Animated UI elements
+- Skills and project showcase
+- Contact section with email integration
+- Accessible navigation controls
+- SEO metadata
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Featured Projects
 
+### Seven Sacred Shadows
+
+A spiritual guidance website currently in development,
+designed to offer tarot readings, angel card readings,
+energy cleansing, and consultation services.
+
+Status: In Progress
+
+### Developer Portfolio
+
+A personal portfolio website showcasing my frontend
+development skills and projects.
+
+Built using React, TypeScript, Tailwind CSS, and Motion.
+
+[Live Demo](https://developer-portfolio-kohl-psi.vercel.app/)
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/addy-commit/developer-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the project:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd developer-portfolio
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Contact
+
+**Aditi Mitra**
+
+Frontend Developer
+
+Email: aditi.mitra6207@gmail.com
+
+GitHub: https://github.com/addy-commit
+
+Portfolio: https://developer-portfolio-kohl-psi.vercel.app/
+
+---
+
+Built with React, TypeScript, and Tailwind CSS.
